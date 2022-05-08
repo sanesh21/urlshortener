@@ -2,7 +2,8 @@
 A php code to shorten a given url.
 
 NOTE:-
-You need to create a Mysql DB and table named "short_urls" with id, code, url, count, created_date and status as their fields
+You need to create a Mysql DB and table named "short_urls" with id, code, url, count, created_date and status as their fields.
+
 CREATE TABLE `short_urls` (
   `id` int NOT NULL,
   `code` varchar(25) COLLATE utf8_swedish_ci NOT NULL,
